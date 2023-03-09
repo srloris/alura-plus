@@ -69,21 +69,67 @@ body {
 .secundario {
     align-items: center;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 .secundario__imagem {
     width: 80%;
 }
 .container__descricao {
-    width: 90%;
+    width: 85%;
 }
 .descricao__titulo {
-    font-size: 3rem;
+    font-size: 2.6rem;
     font-weight: bold;
 }
 .descricao__texto {
     color: var(--cor-segundaria);
     font-size: 1rem;
     margin-top: 0.7rem;
+    margin-bottom: 1rem;
     line-height: 1.3rem;
+}
+.secundario__botao {
+    width: auto;
+}
+.terceario {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.7rem;
+    align-items: center;
+}
+.terceario__descricao {
+    display: flex;
+}
+.descricao__bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descricao__especial {
+    font-size: 1.5rem;
+}
+/* CSS do rodapé */
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.9rem;
+    align-items: center;
+    color: var(--cor-segundaria);
+    margin: 0% 6% 4% 6%;
+}
+.rodape__navegacao {
+    display: flex;
+    gap: 1rem;
+}
+.navegacao__link {
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-size: 0.95rem;
+}
+.rodape__texto {
+    text-align: center;
+    font-size: 0.8rem;
 }
