@@ -1,6 +1,8 @@
 # Projeto do site da Alura Plus
 ![linceça MIT](https://img.shields.io/github/license/srloris/alura-plus)
+
 ![foto da apresentacao](https://user-images.githubusercontent.com/124052885/224361819-adbef4c9-ad0b-4cc8-838f-f9ac719967ff.png)
+
 Projeto desenvolvido para a Alura Plus junto com o curso <a href="https://cursos.alura.com.br/course/html-css-praticando-html-css">HTML e CSS: Praticando HTML/CSS</a>.
 ## Tecnologias
 <ul>
